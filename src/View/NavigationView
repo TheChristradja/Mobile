@@ -1,0 +1,17 @@
+import SwiftUI
+
+
+
+struct Navigation: View {
+    var body: some View {
+        NavigationView{
+
+            NavigationLink{
+                Image(systemName: "globe").imageScale(.large)
+            } label: {
+                Text("View prête à naviguer")
+            }.navigationTitle("Titre de la vue")
+            }.navigationViewStyle(.stack)
+    }
+
+}
