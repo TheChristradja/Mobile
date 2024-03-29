@@ -1,0 +1,8 @@
+import SwiftUI
+
+struct UserOnPositionDTO : Codable{
+    let userId : Int
+    let positionId : Int
+    let slotId: Int
+    let status : String
+}
